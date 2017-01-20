@@ -6,3 +6,6 @@ havent | ' h { v n t
 mustnt | ' m V s n t
 isnt | ' I z n t
 does | ' d V z
+up | @ p
+de | d V -
+Vocht | V o g t
