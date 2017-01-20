@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/marytts/marytts.svg?branch=5.1.x)](https://travis-ci.org/marytts/marytts)
-
 # MaryTTS
 
 This is the source code repository for the multilingual open-source MARY text-to-speech platform (MaryTTS).
@@ -16,6 +14,22 @@ It contains information about compiling and developing the MaryTTS sources.
 
 The code comes under the Lesser General Public License LGPL version 3 -- see LICENSE.md for details.
 
+## Quick guide
+
+The very quick guide for build and dist
+```
+# setup the system
+./gradlew build
+
+# copy voices to download (xml and zip)  and run
+./gradlew runInstallerGui
+
+# build a dist
+./gradlew installDist
+# run server:
+cd build/install/marytts
+bin/marytts-server
+```
 
 ## Running MaryTTS
 
